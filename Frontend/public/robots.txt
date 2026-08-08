@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ai-kanban-board1.vercel.app/sitemap.xml
