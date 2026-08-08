@@ -100,13 +100,38 @@ const Settings = () => {
 
           {/* About */}
           <Card title="About">
-            <div className="flex items-center gap-3">
-              <div className="brand-gradient flex h-10 w-10 items-center justify-center rounded-2xl shadow-[var(--shadow-brand)]">
-                <Zap className="h-5 w-5 fill-white text-white" />
+            <div className="flex flex-col gap-4">
+              <div className="flex items-center gap-3">
+                <div className="brand-gradient flex h-10 w-10 items-center justify-center rounded-2xl shadow-[var(--shadow-brand)]">
+                  <Zap className="h-5 w-5 fill-white text-white" />
+                </div>
+                <div>
+                  <p className="text-sm font-semibold text-ink">Flowboard</p>
+                  <p className="text-xs text-muted">AI-powered Kanban · Light theme</p>
+                </div>
               </div>
-              <div>
-                <p className="text-sm font-semibold text-ink">Flowboard</p>
-                <p className="text-xs text-muted">AI-powered Kanban · Light theme</p>
+              <div className="border-t pt-3">
+                <p className="text-xs font-semibold uppercase tracking-[0.14em] text-faint">Creator & Owner</p>
+                <p className="mt-1 text-sm font-semibold text-ink">Amit Rajput</p>
+                <div className="mt-2 flex items-center gap-3">
+                  <a
+                    href="https://github.com/iamdevamit"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-brand-600 hover:underline"
+                  >
+                    GitHub (@iamdevamit)
+                  </a>
+                  <span className="text-faint text-xs">•</span>
+                  <a
+                    href="https://x.com/iamdevamit"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-brand-600 hover:underline"
+                  >
+                    Twitter / X
+                  </a>
+                </div>
               </div>
             </div>
           </Card>

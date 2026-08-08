@@ -63,11 +63,45 @@ const Footer = () => (
       </div>
 
       {/* bottom bar */}
-      <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t pt-6 text-sm text-muted sm:flex-row">
-        <span>© {new Date().getFullYear()} Flowboard. All rights reserved.</span>
-        <a href="#" className="flex items-center gap-1.5 transition-colors hover:text-ink">
-          <Layers className="h-4 w-4" /> Built with the PERN stack
-        </a>
+      <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t pt-6 text-sm text-muted sm:flex-row">
+        <div className="flex flex-col gap-1 sm:items-start">
+          <span>© {new Date().getFullYear()} Flowboard. All rights reserved.</span>
+          <span className="text-xs text-faint">
+            Created & Owned by{" "}
+            <a
+              href="https://github.com/iamdevamit"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-muted hover:text-ink transition-colors"
+            >
+              Amit Rajput (@iamdevamit)
+            </a>
+          </span>
+        </div>
+        <div className="flex flex-wrap items-center gap-4">
+          <a
+            href="https://github.com/iamdevamit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs hover:text-ink transition-colors"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://x.com/iamdevamit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs hover:text-ink transition-colors"
+          >
+            Twitter
+          </a>
+          <a
+            href="#"
+            className="flex items-center gap-1.5 transition-colors hover:text-ink text-xs"
+          >
+            <Layers className="h-3.5 w-3.5" /> Built with the PERN stack
+          </a>
+        </div>
       </div>
     </div>
   </footer>
