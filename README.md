@@ -16,7 +16,6 @@
   [🌐 **Explore Live Demo**](https://ai-kanban-board1.vercel.app/) • 
   [🚀 **Launch Dashboard**](https://ai-kanban-board1.vercel.app/dashboard) • 
   [🔌 **Backend API Status**](https://ai-kanban-board1.onrender.com) • 
-  [📁 **GitHub Repository**](https://github.com/iamdevamit/AI-Kanban-Board1)
 
 </div>
 
@@ -30,8 +29,6 @@
 | Component | Provider | Live URL | Status |
 | :--- | :--- | :--- | :---: |
 | **Frontend Web App** | Vercel | [https://ai-kanban-board1.vercel.app](https://ai-kanban-board1.vercel.app) | 🟢 Live |
-| **Workspace Dashboard** | Vercel | [https://ai-kanban-board1.vercel.app/dashboard](https://ai-kanban-board1.vercel.app/dashboard) | 🟢 Live |
-| **Backend REST & WebSockets** | Render | [https://ai-kanban-board1.onrender.com](https://ai-kanban-board1.onrender.com) | 🟢 Live |
 | **Database Pool** | Neon PostgreSQL | Cloud Hosted (US East) | 🟢 Live |
 
 ---
